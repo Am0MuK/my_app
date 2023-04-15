@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Image OCR</title>
+</head>
+<body>
+    <h1>Image OCR</h1>
+    <p>Upload an image file and extract the text from it.</p>
+    <form action="/extract_text" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
