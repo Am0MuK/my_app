@@ -40,7 +40,7 @@ def detect_text_region(img):
 
     return roi_x, roi_y, roi_w, roi_h
 
-OCR_REGION = detect_text_region(img)
+    OCR_REGION = detect_text_region(img)
 
 
 lang = "ron" # Define the language for OCR as romanian
@@ -112,4 +112,3 @@ def extract_text_route():
         df.to_excel(output_file, index=False) # Save the new data frame to a new output file
 
     return redirect(url_for('home')) # Redirect to the home page
-
